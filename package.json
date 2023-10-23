@@ -1,0 +1,25 @@
+{
+	"name": "file-centralizer",
+	"version": "1.0.0",
+	"description": "cli tool to extract files from folders and put them in the current dir",
+	"main": "cli.js",
+	"author": "ungarmichael",
+	"license": "MIT",
+	"private": false,
+	"scripts": {
+		"b": "tsc",
+		"r": "node dist/cli.js",
+		"e": "yarn b && yarn r"
+	},
+	"dependencies": {
+		"commander": "^11.1.0",
+		"figlet": "^1.7.0",
+		"fs": "^0.0.1-security",
+		"yargs": "^17.7.2"
+	},
+	"devDependencies": {
+		"@types/node": "^20.8.7",
+		"@types/yargs": "^17.0.29",
+		"typescript": "^5.2.2"
+	}
+}
